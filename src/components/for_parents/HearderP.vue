@@ -55,7 +55,7 @@ onUnmounted(() => {
       <h1>Parent Request for Their Child</h1>
     </div>
     <div class="boxContent">
-      <form action="https://request-absence-bot.onrender.com/sentP" method="POST">
+      <form action="http://localhost:3000/sentP" method="POST">
         <label>Parent Full Name:</label>
         <input type="text" name="Pfullname" placeholder="Enter your full name" required>
 

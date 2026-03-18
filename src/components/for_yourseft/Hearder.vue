@@ -57,7 +57,7 @@ onUnmounted(() => {
       <h1>Student Request for Own or Friend</h1>
     </div>
     <div class="boxContent">
-      <form action="https://request-absence-bot.onrender.com/sent" method="POST">
+      <form action="http://localhost:3000/sent" method="POST">
         <label>Full Name:</label>
         <input type="text" name="fullname" placeholder="Enter your full name" required>
 
